@@ -1,2 +1,2 @@
-# Bootsrap
-Learning bootsrap exercise
+# Bootstrap
+Learning Bootstrap exercise
