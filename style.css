@@ -9,7 +9,7 @@ html{
 
 }
 .header-landing{
-    background-image: url("../images/bg6.jpg");
+    background-image: url("/images/bg6.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

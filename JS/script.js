@@ -21,13 +21,13 @@ $(document).ready(function () {
   });
 });
 $(document).ready(function () {
-  $("#products-icon").click(function () {
-    $("#products-icon").slideDown("1500").hide("1000");
-    $("#products").show("1500");
+  $("#photo-icon").click(function () {
+    $("#photo-icon").slideDown("1500").hide("1000");
+    $("#photography").show("1500");
   });
-  $("#products").click(function () {
-    $("#products").slideUp("1500");
-    $("#products-icon").slideDown("1500");
+  $("#photography").click(function () {
+    $("#photography").slideUp("1500");
+    $("#photo-icon").slideDown("1500");
   });
 });
 
