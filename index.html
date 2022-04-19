@@ -8,6 +8,9 @@
   <link rel="icon" type="image/x-icon" href="images\Logo.jpg">
   <title>Bootstrap</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="bootstrap-5.1.3-dist\css\bootstrap.css">
   <!-- <style>
         [class*="col"]{
@@ -24,8 +27,8 @@
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark " style="background-color: #292A44">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="images\Logo.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-          <i>TravelVlog</i>
+          <img id="logo" src="images\Logo.jpg" alt="" width="40vw" height="40vh" class="d-inline-block align-text-top">&nbsp;
+          Don<span class="title">TravelVlog</span>
         </a>
 
         <!-- <a class="navbar-brand" href="#">T</a> -->
@@ -36,7 +39,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link " aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="travel.html">Travel</a>
@@ -79,7 +82,7 @@
   <div class="header-landing">
     <img src="./images/logo.png" id="logo-1" alt="logo image">
     <h1>Welcome to <br> The Don Travel Vlog</h1>
-    <P>TRAVEL IS THE ONLY THING YOU BUY THAT MAKES YOU RICHER</P>
+    <P>TRAVEL IS THE ONLY THING YOU BUY THAT MAKES YOU RICHER!</P>
 
     <div class="mouseClick"></div>
     <a href="#"><img src="./images/mouse_click.png" id="mouse" alt="mouse click"></a>
@@ -88,7 +91,7 @@
 
 
   <main class="my-5">
-    <h2 class="text-warning" id="wedo">TRAVEL FEATURE OF THE DAY</h2>
+    <h2 class="text-warning" id="wedo">TRAVEL FEATURE OF THE DAY</h2><br>
     <div class="container">
 
       <div class="row">
@@ -97,7 +100,7 @@
             <div class="card">
               <img src="images\eiffel-tower-3349075__340.jpeg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">eiffel Tower,Paris</h5>
+                <h5 class="card-title text-warning">Eiffel Tower,Paris</h5>
                 <p class="card-text">Its height and unique silhouette floating above the Paris landscape quickly made
                   the Eiffel Tower one of the most popular attractions in Paris. The Tower's destiny is closely linked
                   to that of the city of Paris, the capital of France and the Eiffel Tower's owner.</p>
@@ -110,7 +113,7 @@
             <div class="card">
               <img src="images\japan-2014619__340.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Osaka,Japan</h5>
+                <h5 class="card-title text-warning">Osaka,Japan</h5>
                 <p class="card-text">Osaka is best known for its amazing casual food and outgoing locals. It's arguably
                   Japan's street food capital, and among food lovers is famous for snacks including takoyaki and
                   okonomiyaki. Osaka is also renowned for its lively, extroverted locals who make eating and drinking in
@@ -124,7 +127,7 @@
             <div class="card">
               <img src="images\south-africa-997563__340.jpeg" style="height: 70vh;" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Nelson Mandela,S.A</h5>
+                <h5 class="card-title text-warning">Nelson Mandela,S.A</h5>
                 <p class="card-text">Mandela is considered the father of Modern South Africa.</p>
                 <p class="card-text"><small class="text-muted">Last updated 4 mins ago</small></p>
 
@@ -136,12 +139,13 @@
           </div>
         </div>
       </div>
+<br>
 
       <h2 class="text-warning" id="wedo">WHAT WE DO</h2>
       <div class="row">
         <div class="col-3">
           <div class="products">
-            <img src="./images/travel-cap.jpg" style="width: 20vw;height: 38vh;" id="designpic" alt="design pic">
+            <img src="./images/travel-cap.jpg" style="width: 20vw;height: 38vh;;" id="designpic" alt="design pic">
 
             <h2 class="text-warning" id="head1">DESIGN</h2>
             <div id="design">
@@ -200,7 +204,7 @@
 
   <section class="footer text-center text-white">
 
-    <footer class="text-center text-white" style="background-color: #292A44;">
+    <footer id="footer" class="text-center text-white" style="background-color: #292A44;">
       <div class="container p-4 pb-0">
         <section class="">
           <p class="d-flex justify-content-center align-items-center">
